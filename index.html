@@ -1,59 +1,61 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
-    <title>About Adam O</title>
+    <title>About Adam Omundsen</title>
 
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
+    <header class="main-heading">
         <!-- Header of the webpage body (e.g. logo, navigation bar) -->
+        <h1>Resume</h1>
     </header>
     <main>
         <!-- Main section of the webpage body (where most content is) -->
-        <h1>Adam Omundsen</h1>
-        <p>
-            I am a senior at elizabethtown college majoring in Computer Science and Japanese.<br>
-            I enjoy playing video games, coding, and reading manga.
-        </p>
-        <hr>
-        <h3>Current Classes:</h3>
-        <ul>
-            <li>JA 411: Fourth Year Japanese</li>
-            <li>JA 496: Japanese Research Project</li>
-            <li>CS 310: Web Development</li>
-            <li>CS 341: Computer Networking</li>
-        </ul>
-        <h3>Favorite Video Games</h3>
-        <ol>
-            <li><a href="https://minecraft.net" title="Learn More" target="_blank">Minecraft</a></li>
-            <li><a href="https://www.rockstargames.com/gta-v" title="Learn More" target="_blank">Grand Theft Auto 5</a></li>
-            <li><a href="https://astroneer.space" title="Learn More" target="_blank">Astroneer</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Gran_Turismo_2" title="Learn More" target="_blank">Gran Turismo 2</a></li>
-        </ol>
-        <h3>My Emotions</h3>
-        <table>
-            <tr>
-                <td>
-                    <img src="1686175220058.jpg" height="500em">
-                    <p style="text-align:center;">Happy</p>
-                </td>
-                <td>
-                    <img src="20230603_080030.jpg" height="500em">
-                    <p style="text-align:center;">Sad</p>
-                </td>
-            </tr>
-        </table>
-        <h3>Fun Facts About My Roommates</h3>
-        <ul>
-            <li>Lily won bingo.</li>
-            <li>Reilly has 9 classes and is always busy.</li>
-            <li>Gabby is a pro decorator.</li>
-        </ul>
+        <section class="personal-description">
+            <h1>Adam Omundsen</h1>
+            <p>
+                Senior at elizabethtown college majoring in Computer Science and Japanese.<br>
+                Hobbies include playing video games, coding, and reading manga.
+            </p>
+        </section>
+        <section id="personal-image-container">
+            <img id="personal-image" src="1686175220058.jpg" alt="Adam with Japanese friend under an umbrella">
+        </section>
+        <section class="classes">
+            <h3>Current Classes:</h3>
+            <ul>
+                <li>JA 411: Fourth Year Japanese</li>
+                <li>JA 496: Japanese Research Project</li>
+                <li>CS 310: Web Development</li>
+                <li>CS 341: Computer Networking</li>
+            </ul>
+        </section>
+        <section class="programming-experience">
+            <h3>Programming Experience</h3>
+            <dl>
+                <dt>2019 - 2023</dt>
+                <dd>Recreated a large Minecraft minigame with my sister using footage alone, resulting in 60+ classes and over 350KB of code</dd>
+                <dt>Fall 2022</dt>
+                <dd>Worked with professor Li to investigate methods of malware detection in packets using python ML</dd>
+                <dt>Fall 2022</dt>
+                <dd>Worked in a group of four people to create a database interface system for a client on campus</dd>
+            </dl>
+        </section>
+        <section>
+            <h3>Work Experience</h3>
+            <dl>
+                <dt>July 2019 - August 2020</dt>
+                <dd>Worked at the Long Community at Highland as a dietary aide</dd>
+                <dt>May 2021 - December 2022</dt>
+                <dd>Worked at the Mars Wrigley Confectionery in Elizabethtown as a packaging associate</dd>
+            </dl>
+        </section>
     </main>
     <footer>
         <!-- Footer of the webpage body (e.g. copyright info) -->
-        <hr>
+        <a class="footer-link" href="https://www.linkedin.com/in/adam-omundsen-29a087249/">LinkedIn</a>
+        <p class="copyright">© 2023 Adam Omundsen @ CS310 - Elizabethtown College.</p>
     </footer>
 </body>
 </html>
